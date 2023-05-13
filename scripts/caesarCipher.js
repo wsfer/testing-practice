@@ -6,7 +6,7 @@ const converter = {
             let count = 0;
             return 'abcdefghijklmnopqrstuvwxyz'
                 .split('')
-                .map((letter) => [letter, count++]);
+                .map((letter, index) => [letter, index]);
         })()
     ),
 
